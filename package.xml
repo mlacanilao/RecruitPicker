@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>Recruit Picker</title>
+  <id>omegaplatinum.elin.recruitpicker</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Allows players to manually select recruits to show up on the quest board.
+    クエストボードに表示されるリクルート候補を、Mods タブの Config メニューを通じて手動で選択できるようにします。
+
+    [h1] Features [/h1]
+    [list]
+    [*]Enables players to customize recruitable characters through the Config menu under the Mods Tab.
+    [*]Allows users to configure both default and cheat recruit pools.
+    [*]Compatible with existing save files.
+    [*]Includes localization for English, Japanese, and Chinese.
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files and does not require any manual setup.
+
+    [h1] Requirements [/h1]
+    This mod requires the [b]Mod Options[/b] mod only for accessing the Config menu. The core functionality of this mod will still work without it. Please subscribe to the [b]Mod Options[/b] mod for menu-based configuration:
+    [list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341]https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341[/url]
+    [/list]
+
+    [h1] Configuration File Location [/h1]
+    If needed, users can also edit the configuration file directly:
+    [code] Steam\steamapps\common\Elin\BepInEx\config\omegaplatinum.elin.recruitpicker.cfg [/code]
+
+    [img]https://steamuserimages-a.akamaihd.net/ugc/5165557997772022/87C6C92D9E32ED988D401CD4A89105B3901F46C5/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false.png[/img]
+
+    Supports Game Version: 0.23.74
+
+    [h1] 特徴 [/h1]
+    [list]
+    [*]クエストボード用のカスタマイズ可能なリクルート候補選択機能を追加します。
+    [*]ゲーム内の Config メニューから設定可能です。
+    [*]デフォルトおよびチートリクルートプールの設定をサポートします。
+    [*]英語、日本語、中国語の多言語サポートを提供します。
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブデータで動作し、特別な設定は不要です。
+
+    [h1] 必須MOD [/h1]
+    このMODは [b]Mod Options[/b] MOD が必要です。ただし、Config メニューにアクセスするためだけです。主要な機能はこれなしでも動作します。[b]Mod Options[/b] MOD をサブスクライブするには、以下のリンクを参照してください：
+    [list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341]https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341[/url]
+    [/list]
+
+    [h1] 設定ファイルの場所 [/h1]
+    必要に応じて、以下の場所から設定ファイルを直接編集することもできます：
+    [code] Steam\steamapps\common\Elin\BepInEx\config\omegaplatinum.elin.recruitpicker.cfg [/code]
+
+    [img]https://steamuserimages-a.akamaihd.net/ugc/5165557997771858/B35C2B79D98D93E28DBA2724EECC21708185F3A3/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false.png[/img]
+
+    対応ゲームバージョン: 0.23.74
+  </description>
+  <tags>Cheat</tags>
+  <visibility>Public</visibility>
+  <version>0.23.74</version>
+</Meta>

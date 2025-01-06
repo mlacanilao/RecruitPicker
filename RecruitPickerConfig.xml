@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigLayoutSchema.xsd">
+    <hlayout id="hlayout01">
+        <vlayout id="vlayout01" border="true">
+            <title>title01</title>
+            <text id="text01">text01</text>
+            <one_choice id="dropdown01" type="dropdown" value="0">
+                <choice>
+                    <contentId>dropdown01.item01</contentId>
+                </choice>
+            </one_choice>
+            <button id="button01">
+                <contentId>button01.name</contentId>
+                <tooltip>button01.tooltip</tooltip>
+            </button>
+        </vlayout>
+    </hlayout>
+    <hlayout id="hlayout02">
+        <vlayout id="vlayout02" border="true">
+            <title>title02</title>
+            <text id="text02">text02</text>
+            <one_choice id="dropdown02" type="dropdown" value="0">
+                <choice>
+                    <contentId>dropdown02.item01</contentId>'
+                </choice>
+            </one_choice>
+            <button id="button02">
+                <contentId>button02.name</contentId>
+                <tooltip>button02.tooltip</tooltip>
+            </button>
+        </vlayout>
+    </hlayout>
+    <hlayout id="hlayout03">
+        <vlayout id="vlayout03" border="true">
+            <title>title03</title>
+            <text id="text03">text03</text>
+            <one_choice id="dropdown03" type="dropdown" value="0">
+                <choice>
+                    <contentId>dropdown03.item01</contentId>
+                </choice>
+            </one_choice>
+            <button id="button03">
+                <contentId>button03.name</contentId>
+                <tooltip>button03.tooltip</tooltip>
+            </button>
+        </vlayout>
+    </hlayout>
+</config>
