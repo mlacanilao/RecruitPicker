@@ -212,8 +212,8 @@ namespace RecruitPicker.UI
                     break;
 
                 case "CN":
-                    name = string.IsNullOrEmpty(value: row.name) || row.name == "*r" ? string.Empty : row.name;
-                    aka = row.aka;
+                    name = string.IsNullOrEmpty(value: row.name) || row.name == "*r" ? string.Empty : row.GetText(id: "name", returnNull: false);
+                    aka = row.GetText(id: "aka", returnNull: false);
                     break;
 
                 case "EN":
@@ -227,10 +227,10 @@ namespace RecruitPicker.UI
                     break;
             }
             
-            string namePart = name ?? string.Empty;
-            string akaPart = !string.IsNullOrEmpty(value: aka) ? $"「{aka}」" : string.Empty;
+            string namePart = !string.IsNullOrEmpty(name) ? $"「{name}」" : string.Empty;
+            string akaPart = aka ?? string.Empty;
             string idPart = $"({row.id})";
-            string result = $"{namePart} {akaPart} {idPart}".Trim();
+            string result = $"{akaPart} {namePart} {idPart}".Trim();
             return result;
         }
         
